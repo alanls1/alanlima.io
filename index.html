@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL</title>
+    <link rel="icon" href="img/hello.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <nav class="nav">
+        <i class="material-icons theme-btn" id="theme-btn">
+            brightness_6
+        </i>
+        <div class="menu-hambuger" id="menu-hambuger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="menu" id="menu">
+            <li class="menu-item" data-id="header"><i class="material-icons">home</i></li>
+            <li class="menu-item" data-id="about"><i class="material-icons">person</i></li>
+            <li class="menu-item" data-id="contact"><i class="material-icons">mail</i></li>
+
+        </ul>
+    </nav>
+    <header class="header selected" id="header">
+        <section class="home" id="home">
+            <section class="left">
+                <div class="left-shape"></div>
+                <div class="self">
+                    <img src="img/self.png" alt="self">
+                </div>
+            </section>
+            <section class="right">
+                <div class="right-title">
+                    <h1>Olá, me chamo <span>Alan Lima.</span> 
+                        Desenvolvedor web</h1>
+                    <p> Apaixonado por games, música e aprender coisas novas.</p>
+                </div>
+            </section>
+
+        </section>
+    </header>
+    <main>
+        <section class="container" id="about">
+            <div class="about-title" >
+                <h2>Sobre</h2>
+            </div>
+            <div class="about">
+                <div class="about-left">
+                    <h3>Informação sobre mim</h3>
+                    <p>
+                        Olá, meu nome é Alan, apaixonado por games, música e sempre disposto a aprender coisas novas. Conto com um objetivo de ser um grande profissional na área da tecnologia, sei que há um grande caminho a se seguir, porém, sou muito determinado e preparado para os desafios. 
+                    </p>
+                    <p>
+                        Atualmente estou cursando Ciências da computação segundo semestre na UNIP.
+                    </p>
+                </div>
+                <div class="about-right">
+                    <div class="about-item">
+                        <div>
+                            <h4>20+</h4>
+                            <p>Projetos feitos</p>
+                        </div>
+                        
+                    </div>
+                    <div class="about-item">
+                        <div>
+                            <h4>1</h4>
+                            <p>Ano de experiência </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="hrow"> </div>
+            <div class="skills">
+                <div>
+                    <h3>Habilidades</h3>
+                </div>
+                <div class="skills-technology">
+                    <div class="skills-technology-item">
+                        HTML5
+                        <div class="skills-technology-percent">
+                            <p>60%</p>
+                            <div>
+                                <div class="percent" style="width: 60%;">
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-technology-item">
+                        CSS3
+                        <div class="skills-technology-percent" >
+                            <p>70%</p>
+                            <div>
+                                <div class="percent" style="width: 70%;">
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-technology-item">
+                        JAVASCRIPT
+                        <div class="skills-technology-percent">
+                            <p>50%</p>
+                            <div>
+                                <div class="percent" style="width: 50%;">
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-technology-item">
+                        REACTJS
+                        <div class="skills-technology-percent">
+                            <p>50%</p>
+                            <div>
+                                <div class="percent" style="width: 50%;">
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hrow"> </div>
+            <div class="container-projects">
+                <div>
+                    <h3>Projetos</h3>
+                </div>
+                <div class="projects">
+                    <div class="projects-item">
+                        <div>
+                            <img src="img/netflix.jpeg" alt="">
+                        </div>
+                        <div class="projects-item-hidden">
+                            <a href="">Ver projeto
+                                <span>
+                                    >
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projects-item">
+                        <div>
+                            <img src="img/pagina_de_filmes.jpeg" alt="">
+                        </div>
+                        <div class="projects-item-hidden">
+                            <a href="">Ver projeto
+                                <span>
+                                    >
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projects-item">
+                        <div>
+                            <img src="img/loja.png" alt="">
+                        </div>
+                        <div class="projects-item-hidden">
+                            <a href="">Ver projeto
+                                <span>
+                                    >
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="container" id="contact">
+            <div>
+                <h2>Contato</h2>
+            </div>
+            <form id="form">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" required />
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required />
+                <label for="message">Mensagem</label>
+                <textarea name="message" id="message"  required></textarea>
+                <button type="submit" id="buttonForm" disabled>Enviar</button>
+
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+            <div class="form-icons">
+                <a href="https://github.com/alanls1" target="_blank">
+                    <img src="img/icons8-github-48.svg" alt="logo GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/alan-lima-3584a41b9/" target="_blank">
+                    <img src="img/icons8-linkedin.svg" alt="logo Linkedin">
+                </a>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="./scripts/app.js"></script>
+    <script src="./scripts/form.js"></script>
+</body>
+</html>
