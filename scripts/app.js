@@ -3,6 +3,7 @@ const menuHambuger = document.getElementById("menu-hambuger")
 const btnTheme = document.getElementById("theme-btn")
 
 
+
 menuHambuger.addEventListener("click", () => {
     menu.classList.toggle("activo")
     menuHambuger.classList.toggle("rotate")
@@ -26,8 +27,14 @@ btnTheme.addEventListener("click" , e => {
             const itemRemoveSelected = document.querySelector(".selected") 
             itemRemoveSelected.classList.remove("selected")
 
+            const itemRemoveSelect = document.querySelector(".select") 
+            itemRemoveSelect.classList.remove("select")
+
+
             const itemSelect = document.getElementById(item.dataset.id)
             itemSelect.classList.add("selected")
+
+            item.classList.add("select")
         })
     })
 }())()

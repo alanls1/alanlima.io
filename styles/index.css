@@ -109,6 +109,12 @@ body::-webkit-scrollbar-thumb{
     display: block;
     animation: menu 2s;
 }
+.menu-item.select i{
+    background-color: var(--color-title);
+}
+.menu-item.select:hover i{
+    background-color: var(--color-title);
+}
 
 .theme-btn:hover,
 .menu-item i:hover{
