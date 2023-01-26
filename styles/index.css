@@ -12,6 +12,7 @@
     --bg-white: #ffff;
     --color: #fff;
     --color-title: #000000;
+    --percent: #808080;
 }
 .light-mode {
     --bg-grey-1:  #262626;
@@ -19,6 +20,7 @@
     --bg-white: #ffff;
     --color: #000000;
     --color-title:  #999999;
+    --percent: 	#A9A9A9;
     transition: all 1s ease-in-out
 }
 
@@ -185,7 +187,7 @@ body::-webkit-scrollbar-thumb{
 }
 .right span{
     font-size: 1.2em;
-    color: var(--color-title);
+    color: 	var(--color-title);
 }
 
 
@@ -263,7 +265,7 @@ body::-webkit-scrollbar-thumb{
 
 .percent{
     height: 100%;
-    background-color: var(--bg-grey-2);
+    background-color: var(--percent);
     position: relative;
     z-index: 99;
 }
