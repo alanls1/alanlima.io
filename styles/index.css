@@ -5,7 +5,7 @@
     list-style: none;
 }
 
-:root{
+/* :root{
     --bg-primary: #0d0d0d;
     --bg-grey-1: #333333;
     --bg-grey-2: #262626;
@@ -13,6 +13,16 @@
     --color: #fff;
     --color-title: #000000;
     --percent: #808080;
+} */
+:root{
+    --bg-primary: #1D1D26;
+    --bg-menu: #333333;
+    --bg-grey-1: #177359;
+    --bg-grey-2: #262626;
+    --bg-white: #ffff;
+    --color: #fff;
+    --color-title: #17BF90;
+    --percent: #17BF90;
 }
 .light-mode {
     --bg-grey-1:  #262626;
@@ -62,7 +72,7 @@ body::-webkit-scrollbar-thumb{
     padding: 1rem;
     cursor: pointer;
     color: var(--bg-white);
-    background-color: var(--bg-grey-1);
+    background-color: var(--bg-menu);
     border-radius: 50%;
 }
 .theme-btn:active{
@@ -104,7 +114,7 @@ body::-webkit-scrollbar-thumb{
     padding: 1rem;
     cursor: pointer;
     color: var(--bg-white);
-    background-color: var(--bg-grey-1);
+    background-color: var(--bg-menu);
     border-radius: 50%;
 }
 .menu.activo i{
@@ -217,7 +227,7 @@ body::-webkit-scrollbar-thumb{
     margin-left: 1rem;
 }
 .about-item{
-    border: 1px solid var(--bg-grey-1);
+    border: 1px solid var(--bg-menu);
     margin-right: 1rem;
 }
 .about-item div{
@@ -232,7 +242,7 @@ body::-webkit-scrollbar-thumb{
     width: 50%;
     height: 1px;
     margin: 5rem auto;
-    background-color: var(--bg-grey-1);
+    background-color: var(--bg-menu);
 }
 
 .skills{
@@ -266,6 +276,7 @@ body::-webkit-scrollbar-thumb{
 .percent{
     height: 100%;
     background-color: var(--percent);
+    border-radius: 8px;
     position: relative;
     z-index: 99;
 }
@@ -363,7 +374,7 @@ input,
 textarea {
     margin-bottom: 1rem;
     color: var(--bg-white);
-    background: var(--bg-grey-1);
+    background: var(--bg-menu);
     border: 0.125rem solid transparent;
     border-radius: 1.125rem;
     transition: border-color 0.3s, 
