@@ -2,14 +2,12 @@ const menu = document.getElementById("menu")
 const menuHambuger = document.getElementById("menu-hambuger")
 const btnTheme = document.getElementById("theme-btn")
 
-
-
 menuHambuger.addEventListener("click", () => {
     menu.classList.toggle("activo")
     menuHambuger.classList.toggle("rotate")
 })
 
-btnTheme.addEventListener("click" , e => {
+btnTheme.addEventListener("click" , (e) => {
     document.body.classList.toggle("light-mode")
 
     if(e.target.innerText == "brightness_6"){
